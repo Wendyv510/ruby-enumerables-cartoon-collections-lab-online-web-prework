@@ -1,9 +1,13 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves["Doc","Dopey","Bashful","Grumpy"]
+  do
+   (roll_call_dwarves (each_with_index))
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet
+  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+  do
+    .map(planeteer_calls{|n| n capitalize & !})
+    find_all(4 letters)
 end
 
 def long_planeteer_calls# code an argument here
